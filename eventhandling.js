@@ -4,8 +4,6 @@ import { EventEmitter } from "events";
 var eventEmitter = new EventEmitter();
 
 
-
-
 //Create an event handler:
 var myEventHandler = function () {
   console.log('I hear a scream!');
